@@ -3675,6 +3675,9 @@ button:disabled,
         flex-direction: column-reverse;
     }
 
+    .actions>li {
+        max-width: 65px;
+    }
 }
 
 /* Panel (Spotlight) */
@@ -3805,6 +3808,14 @@ button:disabled,
     #page-wrapper {
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+
+}
+
+@media screen and (orientation: landscape) {
+
+    #page-wrapper {
+        width: 100%;
     }
 
 }
