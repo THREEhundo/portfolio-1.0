@@ -1161,6 +1161,15 @@ input[type="radio"]+label:before {
     width: 100%;
 }
 
+@media screen and (max-width: 736px) {
+    .image[data-position="25% 25%"] img {
+        -moz-object-position: 25% 15%;
+        -webkit-object-position: 25% 15%;
+        -ms-object-position: 25% 15%;
+        object-position: 25% 15%;
+    }
+}
+
 /* List */
 
 ol {
