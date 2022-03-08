@@ -231,7 +231,7 @@ textarea {
 }
 
 html {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -259,7 +259,7 @@ body {
     -ms-justify-content: -ms-flex-start;
     justify-content: flex-start;
     -ms-overflow-style: scrollbar;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     min-height: 30rem;
     overflow: hidden;
@@ -301,7 +301,7 @@ body:after {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     z-index: -1;
     background-attachment: fixed;
