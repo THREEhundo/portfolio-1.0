@@ -2315,7 +2315,7 @@ button:disabled,
     -webkit-align-items: -webkit-stretch;
     -ms-align-items: -ms-stretch;
     align-items: stretch;
-    height: 100vh;
+    height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -3814,7 +3814,7 @@ button:disabled,
 @media screen and (orientation: landscape) {
 
     #page-wrapper {
-        width: 100%;
+        width: 100vw;
     }
 
 }
