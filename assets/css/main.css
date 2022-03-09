@@ -231,8 +231,8 @@ textarea {
 }
 
 html {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     padding: env(safe-area-inset);
 }
 
@@ -260,8 +260,8 @@ body {
     -ms-justify-content: -ms-flex-start;
     justify-content: flex-start;
     -ms-overflow-style: scrollbar;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     min-height: 30rem;
     overflow: hidden;
 }
@@ -302,8 +302,8 @@ body:after {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     z-index: -1;
     background-attachment: fixed;
     background-color: #e1e6e1;
@@ -2316,7 +2316,7 @@ button:disabled,
     -webkit-align-items: -webkit-stretch;
     -ms-align-items: -ms-stretch;
     align-items: stretch;
-    height: 100vh;
+    height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -3799,7 +3799,7 @@ button:disabled,
     -webkit-flex-shrink: 1;
     -ms-flex-shrink: 1;
     flex-shrink: 1;
-    height: 100vh;
+    height: 100%;
     padding: 5rem;
 }
 
