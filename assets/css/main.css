@@ -233,6 +233,7 @@ textarea {
 html {
     width: 100vw;
     height: 100vh;
+    padding: env(safe-area-inset);
 }
 
 html {
